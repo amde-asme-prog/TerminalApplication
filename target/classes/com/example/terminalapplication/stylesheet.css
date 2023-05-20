@@ -1,0 +1,32 @@
+.root{
+       -fx-background-color:#faebd7;
+}
+#inputField{
+       -fx-background-color:#faebd7;
+}
+#outputArea{
+        -fx-background-color:black;
+}
+
+/* Set the font and font size of the command field */
+.text-field {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14pt;
+}
+
+/* Set the font and font size of the output label */
+.text-area {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14pt;
+}
+/* Set the border color and thickness of the grid */
+.grid-pane {
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+}
+
+/* Set the rounded corners of the grid */
+.grid-pane {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
